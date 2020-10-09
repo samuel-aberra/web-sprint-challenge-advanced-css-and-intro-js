@@ -134,3 +134,41 @@ button:hover{
 .artist img{
     width:100%;
 }
+
+@media(max-width: 500px){
+    a {	
+        text-decoration: none;	
+        color: black;
+        font-size:2rem;	
+    }
+    h1{
+        font-size:3rem;
+        margin:0;
+    }
+    .artists-container{
+        display:flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width:80%;
+        justify-content: center;
+        align-items: center;
+      } 
+      body{
+         font-size:.7rem;
+      }
+      .artist{
+        width:100%;
+        text-align:center;
+    }
+    .artist img{
+        width:60%;
+        height: 30vh;
+    }
+    nav span{
+        border-left:3px solid #626262;
+        margin-left: 3%;
+        margin-right: 3%;
+    
+    }
+
+}
